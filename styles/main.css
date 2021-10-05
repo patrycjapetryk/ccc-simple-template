@@ -1,0 +1,47 @@
+.main {
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: 'Univers LT W05_55 Roman', serif;
+}
+
+.header {
+  width: 100%;
+}
+
+.header__title {
+  font-family: 'Dallas', serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery__item {
+  width: 32.5%;
+}
+
+.gallery__image {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1100px) {
+  .main {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 768px) {
+  .header__title {
+    font-size: 17px;
+  }
+}
+@media (max-width: 455px) {
+  .gallery__item {
+    width: 100%;
+  }
+}
